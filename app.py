@@ -42,7 +42,7 @@ class DataForm:
     def __init__(self, request: Request):
         self.request: Request = request
         self.Gender: Optional[int] = None
-        self.Age: Optional[int] = Noneclear
+        self.Age: Optional[int] = None
         
         self.Driving_License: Optional[int] = None
         self.Region_Code: Optional[float] = None
