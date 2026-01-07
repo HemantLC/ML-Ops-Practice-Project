@@ -26,3 +26,6 @@ src/exception/__pycache__/
 src/exception/__pycache__/
 src/logger/__pycache__/
 src/pipline/__pycache__/
+src/cloud_storage/__pycache__/
+src/utils/__pycache__/
+.gitignore

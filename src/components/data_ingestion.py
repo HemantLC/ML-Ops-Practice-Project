@@ -51,7 +51,6 @@ class DataIngestion:
 
     def initiate_data_ingestion(self) -> DataIngestionArtifact:
         logging.info("Entered initiate data ingestion method of Data_Ingestion class")
-
         try:
             dataframe = self.export_data_into_feature_store()
             logging.info("Got data from Mongo DB")
