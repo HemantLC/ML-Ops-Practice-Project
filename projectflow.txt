@@ -129,3 +129,9 @@
         >> Now run second "Configure" command (./run.sh) and runner will get connected to Github
         >> To crosscheck, go back to Github and click on Runner and you will see runner state as "idle"
         >> If you do ctrl+c on EC2 server then runner will shut then restart with "./run.sh"
+
+30. Setup your Github secrets: (Github project>Settings>SecretandVariable>Actions>NewRepoSecret)
+      AWS_ACCESS_KEY_ID
+      AWS_SECRET_ACCESS_KEY
+      AWS_DEFAULT_REGION
+      ECR_REPO
